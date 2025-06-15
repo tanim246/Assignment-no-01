@@ -34,7 +34,7 @@ nav ul a{
 }
 
 .hero-container .hero-car {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,10 +61,11 @@ nav ul a{
 /* mooodels */
 
 .models-container{
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    align-items: center;
+    /* border: 1px solid black; */
 }
 
 .models-container  .models-contant{
