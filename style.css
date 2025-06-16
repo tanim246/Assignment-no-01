@@ -26,16 +26,17 @@ nav ul a{
     text-decoration: none;
 }
 
-/* hero-container */
+/* bunas pointr */
 
 .bunas-point{
+    /* margin-top:px; */
     margin-left: 30px;
 }
 
 .bunas-point .contant{
     height: 200px;
     display: flex;
-    margin-left: 400px;
+    margin-left: 90px;
     flex-direction: column;
     gap: 30px;
 
@@ -145,4 +146,16 @@ footer .details p{
 }
 
 
+/* icon style */
 
+.icon{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.icon a{
+    color:black;
+}
