@@ -1,76 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Touring Cars</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav>
-      <img src="images/touringcars.png" alt="logo" />
-      <ul>
-        <a href="">Home</a>
-        <a href="">Inventory</a>
-        <a href="">News Cars</a>
-        <a href="">Inventory</a>
-      </ul>
-    </nav>
 
-    <section class="hero-container">
-      <div class="hero-car">
-        <div class="hero-contant">
-          <h1 style="font-size: 50px; font-weight: bolder">
-            Find the perfect <br />
-            car for your <br />
-            next journey.
-          </h1>
-          <button>See your dream car here</button>
-        </div>
-        <div class="img">
-          <img
-            src="images/porsche-model5 1.png"
-            alt="car-img"
-            width="550px"
-            height="460px"
-          />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Touring Cars</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <img src="images/touringcars.png" alt="logo" />
+    <ul>
+      <a href="">Home</a>
+      <a href="">Inventory</a>
+      <a href="">News Cars</a>
+      <a href="">Inventory</a>
+    </ul>
+  </nav>
+
+  <section class="hero-container">
+    <div class="hero-car">
+      <div class="hero-contant">
+        <h1 style="font-size: 50px; font-weight: bolder">
+          Find the perfect <br />
+          car for your <br />
+          next journey.
+        </h1>
+        <button>See your dream car here</button>
       </div>
-    </section>
-
-    <section class="models-container">
-      <div class="models-contant">
-        <h1>Models</h1>
-        <div class="car-image">
-          <img src="images/Combustion.png" alt="Combustion" />
-          <img src="images/Hybrid.png" alt="Hybrid" />
-          <img src="images/Eletric.png" alt="Eletric" />
-        </div>
+      <div class="img">
+        <img src="images/porsche-model5 1.png" alt="car-img" width="550px" height="460px" />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="models-container">
-      <div class="models-contant">
-        <h1>Models</h1>
-        <div class="car-image">
-          <img src="images/RAM.png" alt="ram-car" />
-          <img src="images/SW4.png" alt="toyota" />
-          <img src="images/SEA-DOO.png" alt="sea-car" />
-        </div>
+  <section class="models-container">
+    <div class="models-contant">
+      <h1>Models</h1>
+      <div class="car-image">
+        <img src="images/Combustion.png" alt="Combustion" />
+        <img src="images/Hybrid.png" alt="Hybrid" />
+        <img src="images/Eletric.png" alt="Eletric" />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section style="display: flex; gap: 100px; padding-top: 80px;">
-      <div style="max-width: 1040px; margin: auto;">
-          <h1>Weekly Highlight</h1>
+  <section class="models-container">
+    <div class="models-contant">
+      <h1>Latest Sales</h1>
+      <div class="car-image">
+        <img src="images/RAM.png" alt="ram-car" />
+        <img src="images/SW4.png" alt="toyota" />
+        <img src="images/SEA-DOO.png" alt="sea-car" />
+      </div>
+    </div>
+  </section>
+
+  <section class="form-container">
+    <div class="form-contant">
+      <h1>Are you looking for <br>
+        a specific model?</h1>
+      <p style="margin-top:10px">Leave your contact so our team can get in touch with you!</p>
+    </div>
+    <form action="">
+      <div class="input-tag">
+        <input type="text" placeholder="Models">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="number" placeholder="Number">
+        <input type="submit" value="submit" style="width: 130px; background-color: black; color: white; border: none;">
+      </div>
+      <label for=""><input type="checkbox">In accordance with the LGPD, I agree to provide the above information so that
+        Touring Cars may contact me to present its services. Your name, email, and phone number will be used in
+        accordance with our Privacy Policy.</label>
+    </form>
+  </section>
+
+  <section style="display: flex; gap: 100px; padding-top: 80px;">
+    <div style="max-width: 1040px; margin: auto;">
+      <h1>Weekly Highlight</h1>
       <div style="display: flex; justify-content: space-between; gap: 30px; margin-top: 20px;">
-          <img src="images/Macan.png" alt="macan car" width="600px" />
-          <img src="images/Text Macan.png" alt="toyota" width="320px" height="340px"/>
+        <img src="images/Macan.png" alt="macan car" width="600px" />
+        <img src="images/Text Macan.png" alt="toyota" width="320px" height="340px" />
       </div>
 
-    </section>
+  </section>
 
-    
-  </body>
+
+  <footer>
+    <div class="details">
+      <div class="footer-contant">
+        <img src="images/touringcars.png" alt="" width="100px">
+        <p>Quality, Safety, Transparency.</p>
+        <p>Quality, Safety, Transparency.</p>
+      </div>
+      <div class="footer-contant">
+        <h4 style="font-size: 18px;">Contact</h4>
+        <p>WhatsApp</p>
+        <p>contato@touringcars.com.br</p>
+        <p>(81) 3512-9411</p>
+      </div>
+      <div class="footer-contant">
+        <h2>Sign Up</h2>
+        <p>Enter your email to receive the <br>
+          latest news from Touring Cars.</p>
+          <div class="email-btn">
+            <input type="email" placeholder="E-mail" style="padding: 6px; width: 100px; border-radius: 6px; border: 1px solid rgb(63, 63, 63);"><button style="padding: 6px; border-radius: 6px; width: 55px; background-color: black; color: white; border: none;" >--></button>
+          </div>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 30px; margin-bottom: 20px; font-size: 14px;">©️ 2025 Touring Cars. All rights reserved.</div>
+  </footer>
+
+
+
+</body>
 
 </html>
